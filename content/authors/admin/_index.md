@@ -29,7 +29,7 @@ bio: My research interests include bioinformatics, genetics and accessibility.
 
 # Interests to show in About widget
 interests:
-  - bioinformatics
+  - Bioinformatics
   - Genetics
   - Accessibility
 
@@ -56,34 +56,34 @@ skills:
         percent: 80
         icon: python
         icon_pack: fab
-      - name: Data Science
+      - name: Linux
         description: ''
         percent: 100
-        icon: chart-line
+        icon: server
         icon_pack: fas
-      - name: SQL
+      - name: Data Science
         description: ''
-        percent: 40
-        icon: database
+        percent: 30
+        icon: chart-line
         icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Reading
         description: ''
         percent: 60
-        icon: person-hiking
+        icon: book
         icon_pack: fas
-      - name: Cats
+      - name: Tinkering with Linux
         description: ''
         percent: 100
-        icon: cat
+        icon: server
         icon_pack: fas
-      - name: Photography
+      - name: Programming
         description: ''
         percent: 80
-        icon: camera-retro
+        icon: code
         icon_pack: fas
 
 # Social/Academic Networking
@@ -96,13 +96,13 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/ibrahimkettaneh
     label: Follow me on Twitter
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://www.linkedin.com/in/ibrahim-kettaneh-8b461525b/
   - icon: github
     icon_pack: fab
     link: https://github.com/ibrahimkettaneh
@@ -114,11 +114,11 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: https://www.linkedin.com/in/ibrahim-kettaneh-8b461525b/
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Ibrahim H. Kettaneh, a Computer Science sophomore at Queen's University, specializes in biomedical computing. His internship at Queen’s Computing and Glocalization Hub enriched his understanding of blockchain applications.
 {style="text-align: justify;"}

@@ -62,19 +62,19 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: Undergraduate
+          School: Queen's University
+          company_url: 'https://www.queensu.ca/'
           company_logo: org-gc
-          location: California
+          location: Kingston
           date_start: '2021-01-01'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
+              * Studying
+              * Self-advocacy
+              * Communication
         - title: Professor of Semiconductor Physics
           company: University X
           company_url: ''
@@ -98,32 +98,59 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.linkedin.com/learning/certificates/77d691a838b626823c527eebb08e282b1de1d532d876f5d6482edae74e4d033d
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2023-01-01'
+          description: 'I learnt the fundemental concepts of project management and went on to apply them in practical experiences'
+          icon: coursera
+          organization: LinkedIn Learning
+          organization_url: https://www.linkedin.com/learning/
+          title: Project Management Foundations
+          url: 'https://www.linkedin.com/learning/project-management-foundations-15528659/deliver-successful-projects'
+        - certificate_url: https://www.linkedin.com/learning/certificates/4847eb2919c28e31c2d41bce9c706ba66fa75b721cf76123356d57128bbcf1d5
+          date_end: ''
+          date_start: '2023-01-01'
           description: ''
           icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
+          organization: LinkedIn Learning
+          organization_url: https://www.linkedin.com/learning/
+          title: Financial Adulting
+          url: 'https://www.linkedin.com/learning/financial-adulting'
         - certificate_url: https://www.edx.org
           date_end: ''
           date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
+          description: I developped a smart mailbox that automatically sanitizes mail and stores it, along with smart functionality.
           icon: edx
           organization: edX
           organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
+          title: Founded Safe-Box Inc.
           url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
         - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          date_end: '2017-09-05'
+          date_start: '2017-06-20'
+          description: ''
+          icon: datacamp
+          organization: Bayridge Public School
+          organization_url: https://bayridgeps.limestone.on.ca/
+          title: 'Founded and Leader Touch School Typing Club'
+          url: ''
+        - certificate_url: https://www.datacamp.com
+          date_end: '2017-09-05'
+          date_start: '2017-06-20'
           description: ''
           icon: datacamp
           organization: DataCamp
           organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          title: 'Volunteered and served as Youth Leader at YMCA'
+          url: ''
+        - certificate_url: https://www.datacamp.com
+          date_end: '2017-01-01'
+          date_start: '2015-01-01'
+          description: ''
+          icon: datacamp
+          organization: DataCamp
+          organization_url: https://www.datacamp.com
+          title: 'Volunteered and served as an interpreter at RAFT Refugee Support and Resettlement'
           url: ''
     design:
       columns: '2'
@@ -237,37 +264,37 @@ sections:
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      # email: test@example.org
+      # phone: 888 888 88 88
+      # appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        Street: University Ave
+        city: Kingston
+        region: ON
+        postcode: 'K7L 3N6'
+        country: Canada
+        country_code: CA
+        # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      # office_hours:
+        # - 'Monday 10:00 to 13:00'
+        # - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
+        latitude: '44.2252833'
+        longitude: '-76.4977161'  
       contact_links:
         - icon: twitter
           icon_pack: fab
           name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+          link: 'https://twitter.com/ibrahimkettaneh'
+          # - icon: skype
+          # icon_pack: fab
+          # name: Skype Me
+          # link: 'skype:echo123?call'
+          # - icon: video
+          # icon_pack: fas
+          # name: Zoom Me
+          # link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
