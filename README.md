@@ -1,4 +1,4 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# [My Site](https://github.com/ibrahimkettaneh/site)
 
 [![Screenshot](./preview.png)](https://hugoblox.com/templates/)
 
