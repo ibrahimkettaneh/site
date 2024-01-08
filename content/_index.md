@@ -99,6 +99,30 @@ sections:
           date_start: '2020-01-01'
           date_end: '2023-12-01'
           description: I developped a smart mailbox that automatically sanitizes mail and stores it, along with smart functionality.
+        - title:  Founded and Leader Touch School Typing Club
+          company: Bayridge Public School
+          company_url: ''
+          company_logo: ddqic
+          location: Bayridge Public School
+          date_start: '2017-01-01'
+          date_end: '2017-06-20'
+          description: Founded a club where I taught touch typing skill to others at school
+        - title:  Volunteered and served as Youth Leader at YMCA
+          company: YMCA
+          company_url: ''
+          company_logo: ddqic
+          location: YMCA Kingston
+          date_start: '2017-01-01'
+          date_end: '2017-06-20'
+          description: Supported with providing summer activities at YMCA
+        - title:  Interpreter at RAFT Refugee Support and Resettlement
+          company: RAFT
+          company_url: ''
+          company_logo: ddqic
+          location: Kamloops, BC
+          date_start: '2017-01-01'
+          date_end: '2017-06-20'
+          description: Volunteered and served as an interpreter at RAFT Refugee Support and Resettlement
     design:
       columns: '2'
   - block: accomplishments
@@ -132,33 +156,6 @@ sections:
           organization_url: https://www.linkedin.com/learning/
           title: Financial Adulting
           url: 'https://www.linkedin.com/learning/financial-adulting'
-        - certificate_url: https://www.datacamp.com
-          date_end: '2017-09-05'
-          date_start: '2017-06-20'
-          description: ''
-          icon: datacamp
-          organization: Bayridge Public School
-          organization_url: https://bayridgeps.limestone.on.ca/
-          title: 'Founded and Leader Touch School Typing Club'
-          url: ''
-        - certificate_url: https://www.datacamp.com
-          date_end: '2017-09-05'
-          date_start: '2017-06-20'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Volunteered and served as Youth Leader at YMCA'
-          url: ''
-        - certificate_url: https://www.datacamp.com
-          date_end: '2017-01-01'
-          date_start: '2015-01-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Volunteered and served as an interpreter at RAFT Refugee Support and Resettlement'
-          url: ''
     design:
       columns: '2'
   - block: collection
