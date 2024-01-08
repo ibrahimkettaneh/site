@@ -65,7 +65,7 @@ sections:
         - title: Undergraduate
           School: Queen's University
           company_url: 'https://www.queensu.ca/'
-          company_logo: org-gc
+          company_logo: queens
           location: Kingston
           date_start: '2021-01-01'
           date_end: ''
@@ -75,14 +75,30 @@ sections:
               * Studying
               * Self-advocacy
               * Communication
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title:  Intern – Linux and Unix Manageme 
+          company: Shared Services Canada - Government of Canada
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: ssc
+          location: Shared Services Canada
+          date_start: '2023-03-01'
+          date_end: '2023-08-31'
+          description: Project Management
+        - title:  Accessibility Tester
+          company: DDQIC
+          company_url: ''
+          company_logo: ddqic
+          location: Rose Innovation Hub
+          date_start: '2023-01-01'
+          date_end: '2023-03-11'
+          description: Universal Accessibility Testing
+        - title:  Founded Safe-Box Inc.
+          company: Safe-Box Inc.
+          company_url: ''
+          company_logo: ddqic
+          location: KEDCO
+          date_start: '2020-01-01'
+          date_end: '2023-12-01'
+          description: I developped a smart mailbox that automatically sanitizes mail and stores it, along with smart functionality.
     design:
       columns: '2'
   - block: accomplishments
@@ -116,15 +132,6 @@ sections:
           organization_url: https://www.linkedin.com/learning/
           title: Financial Adulting
           url: 'https://www.linkedin.com/learning/financial-adulting'
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: I developped a smart mailbox that automatically sanitizes mail and stores it, along with smart functionality.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Founded Safe-Box Inc.
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
         - certificate_url: https://www.datacamp.com
           date_end: '2017-09-05'
           date_start: '2017-06-20'

@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/ibrahimkl/.local/bin/whoogle-search", line 8, in <module>
+    sys.exit(run_app())
+             ^^^^^^^^^
+  File "/home/ibrahimkl/.local/share/pipx/venvs/whoogle-search/lib/python3.11/site-packages/app/routes.py", line 708, in run_app
+    waitress.serve(
+  File "/home/ibrahimkl/.local/share/pipx/venvs/whoogle-search/lib/python3.11/site-packages/waitress/__init__.py", line 13, in serve
+    server = _server(app, **kw)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/ibrahimkl/.local/share/pipx/venvs/whoogle-search/lib/python3.11/site-packages/waitress/server.py", line 78, in create_server
+    last_serv = TcpWSGIServer(
+                ^^^^^^^^^^^^^^
+  File "/home/ibrahimkl/.local/share/pipx/venvs/whoogle-search/lib/python3.11/site-packages/waitress/server.py", line 244, in __init__
+    self.bind_server_socket()
+  File "/home/ibrahimkl/.local/share/pipx/venvs/whoogle-search/lib/python3.11/site-packages/waitress/server.py", line 361, in bind_server_socket
+    self.bind(sockaddr)
+  File "/home/ibrahimkl/.local/share/pipx/venvs/whoogle-search/lib/python3.11/site-packages/waitress/wasyncore.py", line 396, in bind
+    return self.socket.bind(addr)
+           ^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use
